@@ -1,0 +1,26 @@
+name: Daily penny scan
+
+on:
+  schedule:
+    # 21:30 UTC = 5:30pm ET, ~90 min after the close so data has settled.
+    # Weekdays only - markets are shut on weekends.
+    - cron: "30 21 * * 1-5"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Scan sub-$5 listed stocks
+        run: python3 scripts/fetch_pennies.py
+      - name: Commit if changed
+        run: |
+          git config user.name "penny-scout-bot"
+          git config user.email "actions@github.com"
+          git add data/scan.json data/history.json
+          git diff --cached --quiet || git commit -m "Scan $(date -u +%Y-%m-%d)"
+          git push

@@ -1,0 +1,72 @@
+{
+ "scans": [
+  {
+   "date": "2026-08-05",
+   "candidates": [
+    {
+     "symbol": "KLTR",
+     "price": 1.89,
+     "pct_change": 35.0,
+     "activity_score": 97
+    },
+    {
+     "symbol": "RITR",
+     "price": 0.262,
+     "pct_change": 79.33,
+     "activity_score": 90
+    },
+    {
+     "symbol": "CISS",
+     "price": 0.1085,
+     "pct_change": 23.16,
+     "activity_score": 89
+    },
+    {
+     "symbol": "BJDX",
+     "price": 1.24,
+     "pct_change": 24.0,
+     "activity_score": 87
+    },
+    {
+     "symbol": "ZJYL",
+     "price": 2.21,
+     "pct_change": 13.92,
+     "activity_score": 84
+    },
+    {
+     "symbol": "TJGC",
+     "price": 4.12,
+     "pct_change": -23.13,
+     "activity_score": 83
+    },
+    {
+     "symbol": "ZYBT",
+     "price": 2.36,
+     "pct_change": 84.38,
+     "activity_score": 79
+    },
+    {
+     "symbol": "FLZH",
+     "price": 1.47,
+     "pct_change": 24.58,
+     "activity_score": 78
+    },
+    {
+     "symbol": "CTXR",
+     "price": 0.7809,
+     "pct_change": 25.45,
+     "activity_score": 71
+    },
+    {
+     "symbol": "DVLT",
+     "price": 0.2825,
+     "pct_change": -23.96,
+     "activity_score": 69
+    }
+   ]
+  }
+ ],
+ "summary": {
+  "tracked": 0
+ }
+}

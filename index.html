@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0b0f14">
+<title>Penny Scout</title>
+<style>
+:root{
+  --bg:#0b0f14; --panel:#141a22; --panel2:#1b232d; --line:#26313d;
+  --ink:#e8eef5; --dim:#8b9bad; --faint:#5d6b7c;
+  --up:#3fcf8e; --down:#f26d6d; --warn:#f0a848; --hot:#7aa2f7;
+}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font:15px/1.5 -apple-system,BlinkMacSystemFont,"SF Pro Text",system-ui,sans-serif;
+  padding-bottom:env(safe-area-inset-bottom)}
+header{padding:18px 16px 12px;border-bottom:1px solid var(--line);
+  position:sticky;top:0;background:rgba(11,15,20,.94);backdrop-filter:blur(12px);z-index:10}
+h1{margin:0;font-size:19px;letter-spacing:-.3px}
+.sub{color:var(--faint);font-size:12px;margin-top:3px}
+nav{display:flex;gap:4px;padding:10px 12px 0;overflow-x:auto;scrollbar-width:none}
+nav::-webkit-scrollbar{display:none}
+nav button{flex:0 0 auto;background:none;border:0;color:var(--dim);font:600 13px/1 inherit;
+  padding:9px 13px;border-radius:8px}
+nav button.on{background:var(--panel2);color:var(--ink)}
+main{padding:12px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:13px;
+  padding:13px;margin-bottom:9px}
+.row1{display:flex;align-items:baseline;gap:8px}
+.sym{font-weight:700;font-size:17px;letter-spacing:-.2px}
+.exch{font-size:10px;color:var(--faint);border:1px solid var(--line);
+  padding:1px 5px;border-radius:4px}
+.px{margin-left:auto;font-variant-numeric:tabular-nums;font-weight:600}
+.chg{font-variant-numeric:tabular-nums;font-weight:600;font-size:13px}
+.up{color:var(--up)} .down{color:var(--down)}
+.nm{color:var(--dim);font-size:12px;margin:3px 0 9px;overflow:hidden;
+  text-overflow:ellipsis;white-space:nowrap}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:7px;margin-bottom:9px}
+.cell{background:var(--panel2);border-radius:8px;padding:7px 8px}
+.cell b{display:block;font-size:14px;font-variant-numeric:tabular-nums}
+.cell span{display:block;font-size:10px;color:var(--faint);margin-top:1px}
+.bar{height:4px;background:var(--panel2);border-radius:3px;overflow:hidden;margin:9px 0 4px}
+.bar i{display:block;height:100%;background:linear-gradient(90deg,var(--hot),var(--up))}
+.barlab{font-size:10px;color:var(--faint);display:flex;justify-content:space-between}
+.flag{display:flex;gap:6px;align-items:flex-start;font-size:11.5px;
+  padding:5px 8px;border-radius:7px;margin-top:5px;line-height:1.4}
+.flag.high{background:rgba(242,109,109,.11);color:#ffb3b3}
+.flag.med{background:rgba(240,168,72,.10);color:#f5cd93}
+.note{background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--warn);
+  border-radius:10px;padding:13px;margin-bottom:12px;font-size:13px;line-height:1.6;color:var(--dim)}
+.note b{color:var(--ink)}
+.stat{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin-bottom:12px}
+.stat div{background:var(--panel);border:1px solid var(--line);border-radius:11px;padding:12px}
+.stat b{display:block;font-size:21px;font-variant-numeric:tabular-nums}
+.stat span{font-size:11px;color:var(--faint)}
+.hrow{display:flex;align-items:center;gap:9px;padding:9px 2px;border-bottom:1px solid var(--line);
+  font-size:13px}
+.hrow:last-child{border:0}
+.hrow .s{font-weight:600;width:62px}
+.hrow .d{color:var(--faint);font-size:11px;width:52px}
+.hrow .v{margin-left:auto;font-variant-numeric:tabular-nums;font-weight:600}
+.empty{color:var(--faint);text-align:center;padding:34px 16px;font-size:13px;line-height:1.6}
+h2{font-size:13px;color:var(--dim);margin:16px 2px 8px;font-weight:600}
+.learn{background:var(--panel);border:1px solid var(--line);border-radius:11px;
+  padding:13px;margin-bottom:9px;font-size:13.5px;line-height:1.65;color:var(--dim)}
+.learn h3{margin:0 0 6px;font-size:14px;color:var(--ink)}
+.learn code{background:var(--panel2);padding:1px 5px;border-radius:4px;font-size:12px}
+</style>
+</head>
+<body>
+<header>
+  <h1>Penny Scout</h1>
+  <div class="sub" id="stamp">Loading…</div>
+  <nav>
+    <button class="on" data-t="scan">Today</button>
+    <button data-t="record">Track record</button>
+    <button data-t="learn">Read first</button>
+  </nav>
+</header>
+<main id="main"></main>
+
+<script>
+const $ = s => document.querySelector(s);
+let DATA = null, HIST = null, TAB = 'scan';
+
+const fmt = n => n >= 1e9 ? (n/1e9).toFixed(1)+'B'
+  : n >= 1e6 ? (n/1e6).toFixed(1)+'M'
+  : n >= 1e3 ? (n/1e3).toFixed(0)+'K' : String(n);
+const money = n => '$' + (n < 1 ? n.toFixed(4) : n.toFixed(2));
+const sign = n => (n > 0 ? '+' : '') + n.toFixed(1) + '%';
+const cls = n => n > 0 ? 'up' : n < 0 ? 'down' : '';
+
+function card(c){
+  const flags = c.flags.map(f =>
+    `<div class="flag ${f.level}"><span>${f.level==='high'?'⚠':'•'}</span><span>${f.text}</span></div>`
+  ).join('');
+  const pos = Math.round(c.range_position * 100);
+  return `<div class="card">
+    <div class="row1">
+      <span class="sym">${c.symbol}</span>
+      <span class="exch">${c.exchange}</span>
+      <span class="px">${money(c.price)} <span class="chg ${cls(c.pct_change)}">${sign(c.pct_change)}</span></span>
+    </div>
+    <div class="nm">${c.name}${c.sector ? ' · ' + c.sector : ''}</div>
+    <div class="grid">
+      <div class="cell"><b>${c.rel_volume}×</b><span>vs avg volume</span></div>
+      <div class="cell"><b>$${fmt(c.dollar_volume)}</b><span>traded today</span></div>
+      <div class="cell"><b>${pos}%</b><span>of day's range</span></div>
+    </div>
+    <div class="bar"><i style="width:${c.activity_score}%"></i></div>
+    <div class="barlab"><span>Activity score ${c.activity_score}/100</span>
+      <span>${fmt(c.volume)} vs ${fmt(c.avg_volume_30d)} normal</span></div>
+    ${flags}
+  </div>`;
+}
+
+function viewScan(){
+  const c = DATA.candidates;
+  if(!c.length) return `<div class="empty">No candidates cleared the filters today.<br>
+    That happens on quiet days — it's a real result, not an error.</div>`;
+  return `<div class="note"><b>These are not recommendations.</b> The score measures how
+    <i>unusual</i> today's trading was — not whether the stock goes up tomorrow. High activity
+    is how both real breakouts and pump-and-dumps look on day one. They are
+    indistinguishable from this data alone.</div>
+    <h2>${c.length} names · scanned ${DATA.universe_size.toLocaleString()} tickers</h2>
+    ${c.map(card).join('')}`;
+}
+
+function viewRecord(){
+  const s = DATA.track_record || {};
+  if(!s.tracked) return `<div class="empty">No track record yet.<br><br>
+    Every name this scanner lists gets followed for 30 days, and the results show up here —
+    good and bad. Check back in about a week.</div>`;
+  const scans = (HIST?.scans || []).slice().reverse();
+  let rows = '';
+  for(const sc of scans){
+    const done = sc.candidates.filter(x => x.outcome);
+    if(!done.length) continue;
+    rows += `<h2>Listed ${sc.date}</h2>` + done.map(x => `
+      <div class="hrow">
+        <span class="s">${x.symbol}</span>
+        <span class="d">${money(x.price)}</span>
+        <span style="color:var(--faint);font-size:11px">peak ${sign(x.outcome.best)} / low ${sign(x.outcome.worst)}</span>
+        <span class="v ${cls(x.outcome.pct_from_scan)}">${sign(x.outcome.pct_from_scan)}</span>
+      </div>`).join('');
+  }
+  return `<div class="stat">
+      <div><b class="${cls(s.pct_up-50)}">${s.pct_up}%</b><span>went up at all</span></div>
+      <div><b class="${cls(s.median)}">${sign(s.median)}</b><span>median result</span></div>
+      <div><b class="up">${sign(s.best)}</b><span>best</span></div>
+      <div><b class="down">${sign(s.worst)}</b><span>worst</span></div>
+    </div>
+    <div class="note">${s.tracked} names tracked since launch. <b>Median is the honest
+    number</b> — the average gets dragged up by one or two big winners you probably
+    wouldn't have held, and the best/worst pair shows the range you're actually exposed to.</div>
+    ${rows || '<div class="empty">Results land 1 day after each scan.</div>'}`;
+}
+
+function viewLearn(){
+  return `
+  <div class="learn"><h3>What this tool does</h3>
+    Every weekday after the close it scans ~7,200 US-listed stocks, keeps those under $5
+    that traded far more than usual, and ranks them by how unusual the day was. It shows
+    you the data. It does not tell you what to buy — deliberately.</div>
+
+  <div class="learn"><h3>Why "in at $10, out at $90" is the wrong target</h3>
+    A $10 stock isn't a penny stock — the SEC line is $5, and most real ones trade under $2.
+    More importantly, you hear those stories <i>because someone needed you to hear them</i>.
+    A pump-and-dump only works if new buyers arrive, so the winning story travels and the
+    stock that quietly went to zero doesn't. The Track record tab exists so this app can't
+    do that to you.</div>
+
+  <div class="learn"><h3>The three numbers that matter</h3>
+    <b>Relative volume</b> — today's volume vs its 30-day average. <code>20×</code> means
+    something happened. It doesn't say what.<br><br>
+    <b>Dollar volume</b> — price × shares. This is your exit. Under about $3M you may not
+    find a buyer when you want one, and that's what actually ruins people — not picking
+    wrong, but being unable to leave.<br><br>
+    <b>Range position</b> — where it closed inside the day's range. Near 0% means it spiked
+    and got sold into all day. That's the classic dump signature.</div>
+
+  <div class="learn"><h3>What gets filtered out</h3>
+    Sub-$0.10 stocks (the spread alone costs you 15–20% round trip), anything under $1M
+    traded, warrants and units (they don't behave like shares), and all OTC / pink sheets.
+    OTC is where the biggest moves are and also where you can find no buyer at any price.</div>
+
+  <div class="learn"><h3>Before you use it</h3>
+    Assume any single name here can go to zero, because some will. Position size so that
+    being completely wrong is survivable — and note that this app can't tell you what that
+    size is for you. I'm not a licensed advisor and this isn't financial advice; it's a
+    data filter. If you want it checked against your actual finances, that's a
+    conversation for a real advisor.</div>`;
+}
+
+function render(){
+  if(!DATA){ $('#main').innerHTML = '<div class="empty">Loading…</div>'; return; }
+  $('#main').innerHTML = TAB === 'scan' ? viewScan()
+    : TAB === 'record' ? viewRecord() : viewLearn();
+  window.scrollTo(0,0);
+}
+
+document.querySelectorAll('nav button').forEach(b => b.onclick = () => {
+  document.querySelectorAll('nav button').forEach(x => x.classList.remove('on'));
+  b.classList.add('on'); TAB = b.dataset.t; render();
+});
+
+Promise.all([
+  fetch('data/scan.json?' + Date.now()).then(r => r.json()),
+  fetch('data/history.json?' + Date.now()).then(r => r.json()).catch(() => null)
+]).then(([s, h]) => {
+  DATA = s; HIST = h;
+  const d = new Date(s.generated);
+  $('#stamp').textContent = 'Close of ' + s.scan_date + ' · ' +
+    s.candidates.length + ' of ' + s.universe_size.toLocaleString() + ' tickers';
+  render();
+}).catch(e => {
+  $('#main').innerHTML = '<div class="empty">Couldn\'t load scan data.<br>' + e + '</div>';
+  $('#stamp').textContent = 'Offline';
+});
+</script>
+</body>
+</html>
