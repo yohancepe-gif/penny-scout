@@ -140,63 +140,63 @@
    "candidates": [
     {
      "symbol": "XHLD",
-     "price": 2.81,
-     "pct_change": 252.57,
-     "activity_score": 100
+     "price": 2.02,
+     "pct_change": -28.11,
+     "activity_score": 93
     },
     {
      "symbol": "CELZ",
-     "price": 1.15,
-     "pct_change": 71.95,
-     "activity_score": 100
+     "price": 1.42,
+     "pct_change": 23.48,
+     "activity_score": 90
     },
     {
-     "symbol": "GAUZ",
-     "price": 0.425,
-     "pct_change": 69.53,
-     "activity_score": 100
-    },
-    {
-     "symbol": "SURG",
-     "price": 0.325,
-     "pct_change": 45.48,
-     "activity_score": 100
-    },
-    {
-     "symbol": "ENSC",
-     "price": 0.5243,
-     "pct_change": 44.83,
-     "activity_score": 100
-    },
-    {
-     "symbol": "AZI",
-     "price": 1.6,
-     "pct_change": 58.42,
-     "activity_score": 98
-    },
-    {
-     "symbol": "TDUP",
-     "price": 3.11,
-     "pct_change": -50.48,
-     "activity_score": 95
-    },
-    {
-     "symbol": "BYAH",
-     "price": 3.22,
-     "pct_change": 21.93,
-     "activity_score": 89
+     "symbol": "PN",
+     "price": 3.21,
+     "pct_change": -61.28,
+     "activity_score": 87
     },
     {
      "symbol": "BIVI",
-     "price": 1.35,
-     "pct_change": -33.82,
-     "activity_score": 88
+     "price": 0.9993,
+     "pct_change": -25.98,
+     "activity_score": 75
+    },
+    {
+     "symbol": "DSY",
+     "price": 4.6,
+     "pct_change": 33.33,
+     "activity_score": 74
     },
     {
      "symbol": "LBGJ",
-     "price": 4.12,
-     "pct_change": 16.38,
-     "activity_score": 85
+     "price": 3.36,
+     "pct_change": -18.45,
+     "activity_score": 68
+    },
+    {
+     "symbol": "SNOA",
+     "price": 1.44,
+     "pct_change": 15.2,
+     "activity_score": 66
+    },
+    {
+     "symbol": "CVRX",
+     "price": 2.39,
+     "pct_change": -59.76,
+     "activity_score": 53
+    },
+    {
+     "symbol": "WWR",
+     "price": 0.7672,
+     "pct_change": 87.76,
+     "activity_score": 48
+    },
+    {
+     "symbol": "HCWC",
+     "price": 0.3,
+     "pct_change": 50.0,
+     "activity_score": 47
     }
    ]
   }
