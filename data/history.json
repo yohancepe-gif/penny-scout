@@ -7,66 +7,206 @@
      "symbol": "KLTR",
      "price": 1.89,
      "pct_change": 35.0,
-     "activity_score": 97
+     "activity_score": 97,
+     "outcome": {
+      "days_tracked": 1,
+      "latest": 1.72,
+      "pct_from_scan": -9.0,
+      "best": -9.0,
+      "worst": -9.0
+     }
     },
     {
      "symbol": "RITR",
      "price": 0.262,
      "pct_change": 79.33,
-     "activity_score": 90
+     "activity_score": 90,
+     "outcome": {
+      "days_tracked": 1,
+      "latest": 0.1925,
+      "pct_from_scan": -26.5,
+      "best": -26.5,
+      "worst": -26.5
+     }
     },
     {
      "symbol": "CISS",
      "price": 0.1085,
      "pct_change": 23.16,
-     "activity_score": 89
+     "activity_score": 89,
+     "outcome": {
+      "days_tracked": 1,
+      "latest": 0.0974,
+      "pct_from_scan": -10.2,
+      "best": -10.2,
+      "worst": -10.2
+     }
     },
     {
      "symbol": "BJDX",
      "price": 1.24,
      "pct_change": 24.0,
-     "activity_score": 87
+     "activity_score": 87,
+     "outcome": {
+      "days_tracked": 1,
+      "latest": 1.15,
+      "pct_from_scan": -7.3,
+      "best": -7.3,
+      "worst": -7.3
+     }
     },
     {
      "symbol": "ZJYL",
      "price": 2.21,
      "pct_change": 13.92,
-     "activity_score": 84
+     "activity_score": 84,
+     "outcome": {
+      "days_tracked": 1,
+      "latest": 1.92,
+      "pct_from_scan": -13.1,
+      "best": -13.1,
+      "worst": -13.1
+     }
     },
     {
      "symbol": "TJGC",
      "price": 4.12,
      "pct_change": -23.13,
-     "activity_score": 83
+     "activity_score": 83,
+     "outcome": {
+      "days_tracked": 1,
+      "latest": 3.66,
+      "pct_from_scan": -11.2,
+      "best": -11.2,
+      "worst": -11.2
+     }
     },
     {
      "symbol": "ZYBT",
      "price": 2.36,
      "pct_change": 84.38,
-     "activity_score": 79
+     "activity_score": 79,
+     "outcome": {
+      "days_tracked": 1,
+      "latest": 2.09,
+      "pct_from_scan": -11.4,
+      "best": -11.4,
+      "worst": -11.4
+     }
     },
     {
      "symbol": "FLZH",
      "price": 1.47,
      "pct_change": 24.58,
-     "activity_score": 78
+     "activity_score": 78,
+     "outcome": {
+      "days_tracked": 1,
+      "latest": 1.37,
+      "pct_from_scan": -6.8,
+      "best": -6.8,
+      "worst": -6.8
+     }
     },
     {
      "symbol": "CTXR",
      "price": 0.7809,
      "pct_change": 25.45,
-     "activity_score": 71
+     "activity_score": 71,
+     "outcome": {
+      "days_tracked": 1,
+      "latest": 0.642,
+      "pct_from_scan": -17.8,
+      "best": -17.8,
+      "worst": -17.8
+     }
     },
     {
      "symbol": "DVLT",
      "price": 0.2825,
      "pct_change": -23.96,
-     "activity_score": 69
+     "activity_score": 69,
+     "outcome": {
+      "days_tracked": 1,
+      "latest": 0.3161,
+      "pct_from_scan": 11.9,
+      "best": 11.9,
+      "worst": 11.9
+     }
+    }
+   ]
+  },
+  {
+   "date": "2026-08-07",
+   "candidates": [
+    {
+     "symbol": "XHLD",
+     "price": 2.81,
+     "pct_change": 252.57,
+     "activity_score": 100
+    },
+    {
+     "symbol": "CELZ",
+     "price": 1.15,
+     "pct_change": 71.95,
+     "activity_score": 100
+    },
+    {
+     "symbol": "GAUZ",
+     "price": 0.425,
+     "pct_change": 69.53,
+     "activity_score": 100
+    },
+    {
+     "symbol": "SURG",
+     "price": 0.325,
+     "pct_change": 45.48,
+     "activity_score": 100
+    },
+    {
+     "symbol": "ENSC",
+     "price": 0.5243,
+     "pct_change": 44.83,
+     "activity_score": 100
+    },
+    {
+     "symbol": "AZI",
+     "price": 1.6,
+     "pct_change": 58.42,
+     "activity_score": 98
+    },
+    {
+     "symbol": "TDUP",
+     "price": 3.11,
+     "pct_change": -50.48,
+     "activity_score": 95
+    },
+    {
+     "symbol": "BYAH",
+     "price": 3.22,
+     "pct_change": 21.93,
+     "activity_score": 89
+    },
+    {
+     "symbol": "BIVI",
+     "price": 1.35,
+     "pct_change": -33.82,
+     "activity_score": 88
+    },
+    {
+     "symbol": "LBGJ",
+     "price": 4.12,
+     "pct_change": 16.38,
+     "activity_score": 85
     }
    ]
   }
  ],
  "summary": {
-  "tracked": 0
+  "tracked": 10,
+  "pct_up": 10.0,
+  "median": -10.2,
+  "average": -10.1,
+  "worst": -26.5,
+  "best": 11.9
  }
 }
