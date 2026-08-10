@@ -9,10 +9,10 @@
      "pct_change": 35.0,
      "activity_score": 97,
      "outcome": {
-      "days_tracked": 1,
-      "latest": 1.72,
-      "pct_from_scan": -9.0,
-      "best": -9.0,
+      "days_tracked": 2,
+      "latest": 1.75,
+      "pct_from_scan": -7.4,
+      "best": -7.4,
       "worst": -9.0
      }
     },
@@ -22,11 +22,11 @@
      "pct_change": 79.33,
      "activity_score": 90,
      "outcome": {
-      "days_tracked": 1,
-      "latest": 0.1925,
-      "pct_from_scan": -26.5,
+      "days_tracked": 2,
+      "latest": 0.166,
+      "pct_from_scan": -36.6,
       "best": -26.5,
-      "worst": -26.5
+      "worst": -36.6
      }
     },
     {
@@ -35,11 +35,11 @@
      "pct_change": 23.16,
      "activity_score": 89,
      "outcome": {
-      "days_tracked": 1,
-      "latest": 0.0974,
-      "pct_from_scan": -10.2,
+      "days_tracked": 2,
+      "latest": 0.087,
+      "pct_from_scan": -19.8,
       "best": -10.2,
-      "worst": -10.2
+      "worst": -19.8
      }
     },
     {
@@ -48,11 +48,11 @@
      "pct_change": 24.0,
      "activity_score": 87,
      "outcome": {
-      "days_tracked": 1,
-      "latest": 1.15,
-      "pct_from_scan": -7.3,
+      "days_tracked": 2,
+      "latest": 1.07,
+      "pct_from_scan": -13.7,
       "best": -7.3,
-      "worst": -7.3
+      "worst": -13.7
      }
     },
     {
@@ -61,10 +61,10 @@
      "pct_change": 13.92,
      "activity_score": 84,
      "outcome": {
-      "days_tracked": 1,
-      "latest": 1.92,
-      "pct_from_scan": -13.1,
-      "best": -13.1,
+      "days_tracked": 2,
+      "latest": 2.15,
+      "pct_from_scan": -2.7,
+      "best": -2.7,
       "worst": -13.1
      }
     },
@@ -74,11 +74,11 @@
      "pct_change": -23.13,
      "activity_score": 83,
      "outcome": {
-      "days_tracked": 1,
-      "latest": 3.66,
-      "pct_from_scan": -11.2,
+      "days_tracked": 2,
+      "latest": 3.65,
+      "pct_from_scan": -11.4,
       "best": -11.2,
-      "worst": -11.2
+      "worst": -11.4
      }
     },
     {
@@ -87,11 +87,11 @@
      "pct_change": 84.38,
      "activity_score": 79,
      "outcome": {
-      "days_tracked": 1,
-      "latest": 2.09,
-      "pct_from_scan": -11.4,
+      "days_tracked": 2,
+      "latest": 1.89,
+      "pct_from_scan": -19.9,
       "best": -11.4,
-      "worst": -11.4
+      "worst": -19.9
      }
     },
     {
@@ -100,7 +100,7 @@
      "pct_change": 24.58,
      "activity_score": 78,
      "outcome": {
-      "days_tracked": 1,
+      "days_tracked": 2,
       "latest": 1.37,
       "pct_from_scan": -6.8,
       "best": -6.8,
@@ -113,10 +113,10 @@
      "pct_change": 25.45,
      "activity_score": 71,
      "outcome": {
-      "days_tracked": 1,
-      "latest": 0.642,
-      "pct_from_scan": -17.8,
-      "best": -17.8,
+      "days_tracked": 2,
+      "latest": 0.6823,
+      "pct_from_scan": -12.6,
+      "best": -12.6,
       "worst": -17.8
      }
     },
@@ -126,11 +126,11 @@
      "pct_change": -23.96,
      "activity_score": 69,
      "outcome": {
-      "days_tracked": 1,
-      "latest": 0.3161,
-      "pct_from_scan": 11.9,
+      "days_tracked": 2,
+      "latest": 0.3079,
+      "pct_from_scan": 9.0,
       "best": 11.9,
-      "worst": 11.9
+      "worst": 9.0
      }
     }
    ]
@@ -199,14 +199,79 @@
      "activity_score": 47
     }
    ]
+  },
+  {
+   "date": "2026-08-10",
+   "candidates": [
+    {
+     "symbol": "JWEL",
+     "price": 4.0,
+     "pct_change": 158.06,
+     "activity_score": 100
+    },
+    {
+     "symbol": "FEAM",
+     "price": 1.96,
+     "pct_change": 30.67,
+     "activity_score": 94
+    },
+    {
+     "symbol": "HUDI",
+     "price": 0.925,
+     "pct_change": 28.03,
+     "activity_score": 93
+    },
+    {
+     "symbol": "ZJYL",
+     "price": 2.92,
+     "pct_change": 35.81,
+     "activity_score": 85
+    },
+    {
+     "symbol": "YJ",
+     "price": 2.7,
+     "pct_change": -20.59,
+     "activity_score": 79
+    },
+    {
+     "symbol": "WWR",
+     "price": 0.6224,
+     "pct_change": -18.87,
+     "activity_score": 78
+    },
+    {
+     "symbol": "SOAR",
+     "price": 0.1707,
+     "pct_change": 25.52,
+     "activity_score": 71
+    },
+    {
+     "symbol": "XHLD",
+     "price": 3.11,
+     "pct_change": 53.96,
+     "activity_score": 67
+    },
+    {
+     "symbol": "AQB",
+     "price": 1.37,
+     "pct_change": 17.09,
+     "activity_score": 67
+    },
+    {
+     "symbol": "HCWC",
+     "price": 0.2561,
+     "pct_change": -14.63,
+     "activity_score": 66
+    }
+   ]
   }
  ],
  "summary": {
   "tracked": 10,
   "pct_up": 10.0,
-  "median": -10.2,
-  "average": -10.1,
-  "worst": -26.5,
-  "best": 11.9
+  "median": -11.4,
+  "average": -12.2,
+  "worst": -36.6,
+  "best": 9.0
  }
 }
