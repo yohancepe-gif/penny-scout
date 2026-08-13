@@ -1,61 +1,29 @@
 {
- "generated": "2026-08-12T23:25:26+00:00",
- "scan_date": "2026-08-12",
- "universe_size": 7110,
+ "generated": "2026-08-13T23:27:30+00:00",
+ "scan_date": "2026-08-13",
+ "universe_size": 7124,
  "passed_filters": 60,
  "candidates": [
   {
-   "symbol": "PLAG",
-   "name": "Planet Green Holdings Corp.",
-   "exchange": "AMEX",
-   "sector": "Consumer Staples",
-   "price": 1.2,
-   "pct_change": -79.35,
-   "volume": 23448734,
-   "avg_volume_30d": 2554297,
-   "rel_volume": 83.6,
-   "dollar_volume": 28138480,
-   "day_high": 6.81,
-   "day_low": 1.03,
-   "range_position": 0.83,
-   "off_30d_high_pct": 152.6,
-   "market_cap": 17079257,
+   "symbol": "GXAI",
+   "name": "Gaxos.ai Inc.",
+   "exchange": "NASDAQ",
+   "sector": "Technology",
+   "price": 1.26,
+   "pct_change": 44.74,
+   "volume": 82272125,
+   "avg_volume_30d": 271880,
+   "rel_volume": 126.1,
+   "dollar_volume": 103662877,
+   "day_high": 0.898,
+   "day_low": 0.8561,
+   "range_position": 0.34,
+   "off_30d_high_pct": -25.6,
+   "market_cap": 12877117,
    "activity_score": 100,
    "flags": [
     {
-     "text": "volume 84x normal",
-     "level": "high"
-    },
-    {
-     "text": "already doubled off its 30-day range",
-     "level": "med"
-    },
-    {
-     "text": "down hard today - falling knife",
-     "level": "med"
-    }
-   ]
-  },
-  {
-   "symbol": "DRMA",
-   "name": "Dermata Therapeutics Inc.",
-   "exchange": "NASDAQ",
-   "sector": "Health Care",
-   "price": 1.38,
-   "pct_change": 27.78,
-   "volume": 16732214,
-   "avg_volume_30d": 77985,
-   "rel_volume": 296.2,
-   "dollar_volume": 23090455,
-   "day_high": 1.11,
-   "day_low": 1.08,
-   "range_position": 0.0,
-   "off_30d_high_pct": -23.4,
-   "market_cap": 5550557,
-   "activity_score": 92,
-   "flags": [
-    {
-     "text": "volume 296x normal",
+     "text": "volume 126x normal",
      "level": "high"
     },
     {
@@ -65,288 +33,26 @@
    ]
   },
   {
-   "symbol": "WXM",
-   "name": "WF International Limited Ordinary Shares",
-   "exchange": "NASDAQ",
-   "sector": "Consumer Discretionary",
-   "price": 4.76,
-   "pct_change": -39.75,
-   "volume": 621358,
-   "avg_volume_30d": 117548,
-   "rel_volume": 360.0,
-   "dollar_volume": 2957664,
-   "day_high": 12.8,
-   "day_low": 7.27,
-   "range_position": 0.11,
-   "off_30d_high_pct": 70.3,
-   "market_cap": 5363925,
-   "activity_score": 83,
-   "flags": [
-    {
-     "text": "volume 360x normal",
-     "level": "high"
-    },
-    {
-     "text": "thin - hard to exit a real position",
-     "level": "med"
-    }
-   ]
-  },
-  {
-   "symbol": "SLXN",
-   "name": "Silexion Therapeutics Corp Ordinary Shares",
-   "exchange": "NASDAQ",
-   "sector": "Health Care",
-   "price": 0.4541,
-   "pct_change": -56.13,
-   "volume": 4239027,
-   "avg_volume_30d": 90808,
-   "rel_volume": 22.4,
-   "dollar_volume": 1924942,
-   "day_high": 1.5,
-   "day_low": 1.0201,
-   "range_position": 0.03,
-   "off_30d_high_pct": -63.7,
-   "market_cap": 612590,
-   "activity_score": 82,
-   "flags": [
-    {
-     "text": "thin - hard to exit a real position",
-     "level": "med"
-    },
-    {
-     "text": "down hard today - falling knife",
-     "level": "med"
-    }
-   ]
-  },
-  {
-   "symbol": "HXHX",
-   "name": "Haoxin Holdings Limited Class A Ordinary Shares",
-   "exchange": "NASDAQ",
-   "sector": "Industrials",
-   "price": 0.542,
-   "pct_change": 11.75,
-   "volume": 28674944,
-   "avg_volume_30d": 614334,
-   "rel_volume": 18.6,
-   "dollar_volume": 15541819,
-   "day_high": 0.7346,
-   "day_low": 0.4497,
-   "range_position": 0.12,
-   "off_30d_high_pct": -16.0,
-   "market_cap": 7452500,
-   "activity_score": 78,
-   "flags": []
-  },
-  {
-   "symbol": "NTHI",
-   "name": "NeOnc Technologies Holdings Inc.",
-   "exchange": "NASDAQ",
-   "sector": "Health Care",
-   "price": 3.46,
-   "pct_change": -20.46,
-   "volume": 1102958,
-   "avg_volume_30d": 65113,
-   "rel_volume": 16.4,
-   "dollar_volume": 3816234,
-   "day_high": 4.51,
-   "day_low": 3.49,
-   "range_position": 0.84,
-   "off_30d_high_pct": -4.0,
-   "market_cap": 89739823,
-   "activity_score": 72,
-   "flags": []
-  },
-  {
-   "symbol": "UZX",
-   "name": "Linkage Global Inc. Class A Ordinary Shares",
-   "exchange": "NASDAQ",
-   "sector": "Consumer Discretionary",
-   "price": 0.12,
-   "pct_change": -20.0,
-   "volume": 8807919,
-   "avg_volume_30d": 404136,
-   "rel_volume": 311.5,
-   "dollar_volume": 1056950,
-   "day_high": 0.185,
-   "day_low": 0.1423,
-   "range_position": 0.18,
-   "off_30d_high_pct": -60.6,
-   "market_cap": 7936582,
-   "activity_score": 69,
-   "flags": [
-    {
-     "text": "volume 312x normal",
-     "level": "high"
-    },
-    {
-     "text": "sub-25c - spread alone can cost you 10-20%",
-     "level": "high"
-    },
-    {
-     "text": "thin - hard to exit a real position",
-     "level": "med"
-    }
-   ]
-  },
-  {
-   "symbol": "GLE",
-   "name": "Global Engine Group Holding Limited Class A Ordinary Shares",
+   "symbol": "IVDA",
+   "name": "Iveda Solutions Inc.",
    "exchange": "NASDAQ",
    "sector": "Technology",
-   "price": 0.3959,
-   "pct_change": -19.7,
-   "volume": 3331898,
-   "avg_volume_30d": 293240,
-   "rel_volume": 505.8,
-   "dollar_volume": 1319098,
-   "day_high": 0.7841,
-   "day_low": 0.4312,
-   "range_position": 0.18,
-   "off_30d_high_pct": 6.2,
-   "market_cap": 7244970,
-   "activity_score": 69,
+   "price": 0.5253,
+   "pct_change": 42.74,
+   "volume": 181195711,
+   "avg_volume_30d": 311707,
+   "rel_volume": 294.1,
+   "dollar_volume": 95182106,
+   "day_high": 0.4777,
+   "day_low": 0.295,
+   "range_position": 0.4,
+   "off_30d_high_pct": 5.1,
+   "market_cap": 5851705,
+   "activity_score": 100,
    "flags": [
     {
-     "text": "volume 506x normal",
+     "text": "volume 294x normal",
      "level": "high"
-    },
-    {
-     "text": "thin - hard to exit a real position",
-     "level": "med"
-    }
-   ]
-  },
-  {
-   "symbol": "CIGL",
-   "name": "Concorde International Group Ltd Class A Ordinary Shares",
-   "exchange": "NASDAQ",
-   "sector": "Consumer Discretionary",
-   "price": 0.4925,
-   "pct_change": -17.41,
-   "volume": 2089733,
-   "avg_volume_30d": 5030947,
-   "rel_volume": 20.7,
-   "dollar_volume": 1029193,
-   "day_high": 0.7362,
-   "day_low": 0.4196,
-   "range_position": 0.56,
-   "off_30d_high_pct": -22.6,
-   "market_cap": 111790343,
-   "activity_score": 67,
-   "flags": [
-    {
-     "text": "thin - hard to exit a real position",
-     "level": "med"
-    }
-   ]
-  },
-  {
-   "symbol": "GTEC",
-   "name": "Greenland Technologies Holding Corporation Class A Ordinary Shares",
-   "exchange": "NASDAQ",
-   "sector": "Industrials",
-   "price": 0.639,
-   "pct_change": 15.3,
-   "volume": 3250241,
-   "avg_volume_30d": 60018,
-   "rel_volume": 231.4,
-   "dollar_volume": 2076903,
-   "day_high": 0.573,
-   "day_low": 0.532,
-   "range_position": 0.54,
-   "off_30d_high_pct": -7.2,
-   "market_cap": 13120256,
-   "activity_score": 67,
-   "flags": [
-    {
-     "text": "volume 231x normal",
-     "level": "high"
-    },
-    {
-     "text": "thin - hard to exit a real position",
-     "level": "med"
-    }
-   ]
-  },
-  {
-   "symbol": "MSGY",
-   "name": "Masonglory Limited Class A Ordinary Shares",
-   "exchange": "NASDAQ",
-   "sector": "Consumer Discretionary",
-   "price": 2.95,
-   "pct_change": -13.99,
-   "volume": 713148,
-   "avg_volume_30d": 103040,
-   "rel_volume": 395.0,
-   "dollar_volume": 2103786,
-   "day_high": 5.8799,
-   "day_low": 2.54,
-   "range_position": 0.27,
-   "off_30d_high_pct": -17.5,
-   "market_cap": 6252894,
-   "activity_score": 66,
-   "flags": [
-    {
-     "text": "volume 395x normal",
-     "level": "high"
-    },
-    {
-     "text": "thin - hard to exit a real position",
-     "level": "med"
-    }
-   ]
-  },
-  {
-   "symbol": "AIFA",
-   "name": "All In FutureTech Alliance Inc.",
-   "exchange": "NASDAQ",
-   "sector": "Consumer Discretionary",
-   "price": 2.77,
-   "pct_change": -12.89,
-   "volume": 652882,
-   "avg_volume_30d": 69768,
-   "rel_volume": 105.2,
-   "dollar_volume": 1808483,
-   "day_high": 3.45,
-   "day_low": 2.17,
-   "range_position": 0.79,
-   "off_30d_high_pct": 37.7,
-   "market_cap": 17665733,
-   "activity_score": 65,
-   "flags": [
-    {
-     "text": "volume 105x normal",
-     "level": "high"
-    },
-    {
-     "text": "thin - hard to exit a real position",
-     "level": "med"
-    }
-   ]
-  },
-  {
-   "symbol": "NCMI",
-   "name": "National CineMedia Inc.",
-   "exchange": "NASDAQ",
-   "sector": "Consumer Discretionary",
-   "price": 2.22,
-   "pct_change": -41.42,
-   "volume": 10547436,
-   "avg_volume_30d": 325294,
-   "rel_volume": 2.3,
-   "dollar_volume": 23415307,
-   "day_high": 3.95,
-   "day_low": 3.68,
-   "range_position": 0.41,
-   "off_30d_high_pct": -9.3,
-   "market_cap": 208192242,
-   "activity_score": 53,
-   "flags": [
-    {
-     "text": "down hard today - falling knife",
-     "level": "med"
     }
    ]
   },
@@ -355,100 +61,23 @@
    "name": "OFA Group Class A Ordinary Shares",
    "exchange": "NASDAQ",
    "sector": "Consumer Discretionary",
-   "price": 1.36,
-   "pct_change": 90.69,
-   "volume": 151383660,
-   "avg_volume_30d": 460963,
-   "rel_volume": 1.9,
-   "dollar_volume": 205881777,
-   "day_high": 0.7999,
-   "day_low": 0.65,
-   "range_position": 0.42,
-   "off_30d_high_pct": -63.3,
-   "market_cap": 30786391,
-   "activity_score": 52,
-   "flags": []
-  },
-  {
-   "symbol": "GLND",
-   "name": "Greenland Energy Company",
-   "exchange": "NASDAQ",
-   "sector": "Energy",
-   "price": 1.115,
-   "pct_change": -44.53,
-   "volume": 13982639,
-   "avg_volume_30d": 815252,
-   "rel_volume": 2.8,
-   "dollar_volume": 15590642,
-   "day_high": 2.228,
-   "day_low": 1.79,
-   "range_position": 0.5,
-   "off_30d_high_pct": -14.8,
-   "market_cap": 48759166,
-   "activity_score": 51,
+   "price": 1.63,
+   "pct_change": 19.85,
+   "volume": 42309310,
+   "avg_volume_30d": 488006,
+   "rel_volume": 311.9,
+   "dollar_volume": 68964175,
+   "day_high": 3.79,
+   "day_low": 1.34,
+   "range_position": 0.01,
+   "off_30d_high_pct": -29.5,
+   "market_cap": 36898395,
+   "activity_score": 87,
    "flags": [
     {
-     "text": "down hard today - falling knife",
-     "level": "med"
-    }
-   ]
-  },
-  {
-   "symbol": "BIVI",
-   "name": "BioVie Inc. Class A",
-   "exchange": "NASDAQ",
-   "sector": "Health Care",
-   "price": 1.56,
-   "pct_change": 22.84,
-   "volume": 123563872,
-   "avg_volume_30d": 641823,
-   "rel_volume": 4.2,
-   "dollar_volume": 192759640,
-   "day_high": 1.415,
-   "day_low": 1.09,
-   "range_position": 0.55,
-   "off_30d_high_pct": -44.1,
-   "market_cap": 11766515,
-   "activity_score": 50,
-   "flags": []
-  },
-  {
-   "symbol": "PYXS",
-   "name": "Pyxis Oncology Inc.",
-   "exchange": "NASDAQ",
-   "sector": "Health Care",
-   "price": 3.18,
-   "pct_change": 12.37,
-   "volume": 1926699,
-   "avg_volume_30d": 1246272,
-   "rel_volume": 9.7,
-   "dollar_volume": 6126902,
-   "day_high": 4.0,
-   "day_low": 1.9,
-   "range_position": 0.44,
-   "off_30d_high_pct": -26.1,
-   "market_cap": 201470433,
-   "activity_score": 50,
-   "flags": []
-  },
-  {
-   "symbol": "RMCF",
-   "name": "Rocky Mountain Chocolate Factory Inc.",
-   "exchange": "NASDAQ",
-   "sector": "Consumer Staples",
-   "price": 1.52,
-   "pct_change": 126.02,
-   "volume": 202507315,
-   "avg_volume_30d": 74465,
-   "rel_volume": 0.8,
-   "dollar_volume": 307811118,
-   "day_high": 0.8325,
-   "day_low": 0.6601,
-   "range_position": 0.07,
-   "off_30d_high_pct": -43.0,
-   "market_cap": 14348172,
-   "activity_score": 48,
-   "flags": [
+     "text": "volume 312x normal",
+     "level": "high"
+    },
     {
      "text": "spiked then sold off into the close",
      "level": "high"
@@ -456,79 +85,69 @@
    ]
   },
   {
-   "symbol": "CHOW",
-   "name": "ChowChow Cloud International Holdings Limited Ordinary Shares",
-   "exchange": "AMEX",
-   "sector": "Technology",
-   "price": 0.5,
-   "pct_change": 41.24,
-   "volume": 238932415,
-   "avg_volume_30d": 768491,
-   "rel_volume": 0.3,
-   "dollar_volume": 119466207,
-   "day_high": 0.3639,
-   "day_low": 0.34,
-   "range_position": 0.59,
-   "off_30d_high_pct": -12.2,
-   "market_cap": 17745000,
-   "activity_score": 46,
-   "flags": []
-  },
-  {
-   "symbol": "BQ",
-   "name": "Boqii Holding Limited Class A Ordinary Shares",
-   "exchange": "AMEX",
-   "sector": "Consumer Discretionary",
-   "price": 1.23,
-   "pct_change": 52.42,
-   "volume": 120068186,
-   "avg_volume_30d": 420838,
-   "rel_volume": 0.1,
-   "dollar_volume": 147683868,
-   "day_high": 0.8376,
-   "day_low": 0.7903,
-   "range_position": 0.35,
-   "off_30d_high_pct": -8.5,
-   "market_cap": 9691925,
-   "activity_score": 45,
-   "flags": []
-  },
-  {
-   "symbol": "DOGZ",
-   "name": "Dogness (International) Corporation Class A",
+   "symbol": "CURI",
+   "name": "CuriosityStream Inc. Class A",
    "exchange": "NASDAQ",
    "sector": "Consumer Discretionary",
-   "price": 1.28,
-   "pct_change": 37.65,
-   "volume": 39671769,
-   "avg_volume_30d": 36794,
-   "rel_volume": 0.3,
-   "dollar_volume": 50779864,
-   "day_high": 0.93,
-   "day_low": 0.8874,
-   "range_position": 1.0,
-   "off_30d_high_pct": -16.2,
-   "market_cap": 18573642,
-   "activity_score": 45,
+   "price": 3.99,
+   "pct_change": 42.5,
+   "volume": 20354002,
+   "avg_volume_30d": 311527,
+   "rel_volume": 11.1,
+   "dollar_volume": 81212467,
+   "day_high": 2.831,
+   "day_low": 2.71,
+   "range_position": 0.74,
+   "off_30d_high_pct": -3.8,
+   "market_cap": 236557524,
+   "activity_score": 86,
    "flags": []
   },
   {
-   "symbol": "ACB",
-   "name": "Aurora Cannabis Inc. Common Shares",
+   "symbol": "NCMI",
+   "name": "National CineMedia Inc.",
    "exchange": "NASDAQ",
-   "sector": "Health Care",
-   "price": 3.82,
-   "pct_change": 9.61,
-   "volume": 5091445,
-   "avg_volume_30d": 1233905,
-   "rel_volume": 5.4,
-   "dollar_volume": 19449319,
-   "day_high": 3.53,
-   "day_low": 3.26,
-   "range_position": 0.83,
-   "off_30d_high_pct": 16.6,
-   "market_cap": 236675450,
-   "activity_score": 45,
+   "sector": "Consumer Discretionary",
+   "price": 2.68,
+   "pct_change": 20.72,
+   "volume": 6113072,
+   "avg_volume_30d": 326768,
+   "rel_volume": 32.3,
+   "dollar_volume": 16383032,
+   "day_high": 2.82,
+   "day_low": 2.16,
+   "range_position": 0.09,
+   "off_30d_high_pct": -46.9,
+   "market_cap": 252108787,
+   "activity_score": 84,
+   "flags": [
+    {
+     "text": "volume 32x normal",
+     "level": "high"
+    },
+    {
+     "text": "spiked then sold off into the close",
+     "level": "high"
+    }
+   ]
+  },
+  {
+   "symbol": "FGL",
+   "name": "Founder Group Limited Class A Ordinary Shares",
+   "exchange": "NASDAQ",
+   "sector": "Consumer Discretionary",
+   "price": 0.4963,
+   "pct_change": -36.66,
+   "volume": 8287576,
+   "avg_volume_30d": 503746,
+   "rel_volume": 22.0,
+   "dollar_volume": 4113123,
+   "day_high": 0.8399,
+   "day_low": 0.76,
+   "range_position": 0.29,
+   "off_30d_high_pct": -47.4,
+   "market_cap": 568591,
+   "activity_score": 82,
    "flags": []
   },
   {
@@ -536,19 +155,23 @@
    "name": "Valion Bio Inc.",
    "exchange": "NASDAQ",
    "sector": "Health Care",
-   "price": 0.226,
-   "pct_change": -27.1,
-   "volume": 135308806,
-   "avg_volume_30d": 737401,
-   "rel_volume": 1.9,
-   "dollar_volume": 30579790,
-   "day_high": 0.3567,
-   "day_low": 0.2814,
-   "range_position": 0.38,
-   "off_30d_high_pct": -43.6,
-   "market_cap": 938185,
-   "activity_score": 44,
+   "price": 0.1708,
+   "pct_change": -24.43,
+   "volume": 23263402,
+   "avg_volume_30d": 779837,
+   "rel_volume": 176.6,
+   "dollar_volume": 3973389,
+   "day_high": 1.3,
+   "day_low": 0.2,
+   "range_position": 0.02,
+   "off_30d_high_pct": -56.5,
+   "market_cap": 709035,
+   "activity_score": 74,
    "flags": [
+    {
+     "text": "volume 177x normal",
+     "level": "high"
+    },
     {
      "text": "sub-25c - spread alone can cost you 10-20%",
      "level": "high"
@@ -556,22 +179,69 @@
    ]
   },
   {
-   "symbol": "MYSZ",
-   "name": "My Size Inc.",
+   "symbol": "BAOS",
+   "name": "Baosheng Media Group Holdings Limited Ordinary shares",
    "exchange": "NASDAQ",
-   "sector": "Technology",
-   "price": 0.4172,
-   "pct_change": 9.5,
-   "volume": 6492030,
-   "avg_volume_30d": 46943,
-   "rel_volume": 9.0,
-   "dollar_volume": 2708474,
-   "day_high": 0.46,
-   "day_low": 0.381,
-   "range_position": 0.0,
-   "off_30d_high_pct": -22.6,
-   "market_cap": 2250701,
-   "activity_score": 42,
+   "sector": "Consumer Discretionary",
+   "price": 0.595,
+   "pct_change": -21.71,
+   "volume": 4491955,
+   "avg_volume_30d": 1521998,
+   "rel_volume": 44.7,
+   "dollar_volume": 2672713,
+   "day_high": 1.22,
+   "day_low": 0.63,
+   "range_position": 0.22,
+   "off_30d_high_pct": -73.0,
+   "market_cap": 18941520,
+   "activity_score": 71,
+   "flags": [
+    {
+     "text": "volume 45x normal",
+     "level": "high"
+    },
+    {
+     "text": "thin - hard to exit a real position",
+     "level": "med"
+    }
+   ]
+  },
+  {
+   "symbol": "GLND",
+   "name": "Greenland Energy Company",
+   "exchange": "NASDAQ",
+   "sector": "Energy",
+   "price": 1.25,
+   "pct_change": 12.11,
+   "volume": 3757338,
+   "avg_volume_30d": 844317,
+   "rel_volume": 16.7,
+   "dollar_volume": 4696672,
+   "day_high": 1.46,
+   "day_low": 1.1,
+   "range_position": 0.04,
+   "off_30d_high_pct": -52.8,
+   "market_cap": 54662743,
+   "activity_score": 67,
+   "flags": []
+  },
+  {
+   "symbol": "DRMA",
+   "name": "Dermata Therapeutics Inc.",
+   "exchange": "NASDAQ",
+   "sector": "Health Care",
+   "price": 1.57,
+   "pct_change": 13.77,
+   "volume": 1253158,
+   "avg_volume_30d": 841698,
+   "rel_volume": 19.9,
+   "dollar_volume": 1967458,
+   "day_high": 1.46,
+   "day_low": 1.19,
+   "range_position": 0.7,
+   "off_30d_high_pct": -2.1,
+   "market_cap": 6314765,
+   "activity_score": 66,
    "flags": [
     {
      "text": "thin - hard to exit a real position",
@@ -580,31 +250,354 @@
    ]
   },
   {
+   "symbol": "CHOW",
+   "name": "ChowChow Cloud International Holdings Limited Ordinary Shares",
+   "exchange": "AMEX",
+   "sector": "Technology",
+   "price": 0.439,
+   "pct_change": -12.2,
+   "volume": 4902307,
+   "avg_volume_30d": 773863,
+   "rel_volume": 309.5,
+   "dollar_volume": 2152112,
+   "day_high": 0.72,
+   "day_low": 0.436,
+   "range_position": 0.23,
+   "off_30d_high_pct": 24.1,
+   "market_cap": 15580110,
+   "activity_score": 65,
+   "flags": [
+    {
+     "text": "volume 310x normal",
+     "level": "high"
+    },
+    {
+     "text": "thin - hard to exit a real position",
+     "level": "med"
+    }
+   ]
+  },
+  {
+   "symbol": "DFSC",
+   "name": "DEFSEC Technologies Inc.",
+   "exchange": "NASDAQ",
+   "sector": "Technology",
+   "price": 2.31,
+   "pct_change": 86.29,
+   "volume": 113435842,
+   "avg_volume_30d": 64839,
+   "rel_volume": 1.7,
+   "dollar_volume": 262036795,
+   "day_high": 1.4363,
+   "day_low": 1.24,
+   "range_position": 0.0,
+   "off_30d_high_pct": -51.0,
+   "market_cap": 6159920,
+   "activity_score": 51,
+   "flags": [
+    {
+     "text": "spiked then sold off into the close",
+     "level": "high"
+    }
+   ]
+  },
+  {
+   "symbol": "LESL",
+   "name": "Leslie's Inc.",
+   "exchange": "NASDAQ",
+   "sector": "Consumer Discretionary",
+   "price": 0.7699,
+   "pct_change": -41.67,
+   "volume": 7249005,
+   "avg_volume_30d": 1468204,
+   "rel_volume": 4.1,
+   "dollar_volume": 5581008,
+   "day_high": 1.4,
+   "day_low": 1.25,
+   "range_position": 0.47,
+   "off_30d_high_pct": -87.0,
+   "market_cap": 7205839,
+   "activity_score": 46,
+   "flags": [
+    {
+     "text": "down hard today - falling knife",
+     "level": "med"
+    }
+   ]
+  },
+  {
+   "symbol": "CRIS",
+   "name": "Curis Inc.",
+   "exchange": "NASDAQ",
+   "sector": "Health Care",
+   "price": 1.87,
+   "pct_change": 11.98,
+   "volume": 2280991,
+   "avg_volume_30d": 123799,
+   "rel_volume": 9.3,
+   "dollar_volume": 4265453,
+   "day_high": 2.4,
+   "day_low": 1.63,
+   "range_position": 0.05,
+   "off_30d_high_pct": -84.0,
+   "market_cap": 3908444,
+   "activity_score": 46,
+   "flags": []
+  },
+  {
+   "symbol": "HCTI",
+   "name": "Healthcare Triangle Inc.",
+   "exchange": "NASDAQ",
+   "sector": "Technology",
+   "price": 1.73,
+   "pct_change": 39.52,
+   "volume": 44998595,
+   "avg_volume_30d": 211520,
+   "rel_volume": 0.2,
+   "dollar_volume": 77847569,
+   "day_high": 1.2578,
+   "day_low": 1.21,
+   "range_position": 0.63,
+   "off_30d_high_pct": -36.4,
+   "market_cap": 25334677,
+   "activity_score": 45,
+   "flags": []
+  },
+  {
+   "symbol": "BYSI",
+   "name": "BeyondSpring Inc. Ordinary Shares",
+   "exchange": "NASDAQ",
+   "sector": "Health Care",
+   "price": 0.9963,
+   "pct_change": 34.27,
+   "volume": 38803338,
+   "avg_volume_30d": 36984,
+   "rel_volume": 0.9,
+   "dollar_volume": 38659765,
+   "day_high": 0.7999,
+   "day_low": 0.73,
+   "range_position": 0.17,
+   "off_30d_high_pct": -60.3,
+   "market_cap": 40967677,
+   "activity_score": 45,
+   "flags": [
+    {
+     "text": "spiked then sold off into the close",
+     "level": "high"
+    }
+   ]
+  },
+  {
+   "symbol": "LIMN",
+   "name": "Liminatus Pharma Inc. Class A",
+   "exchange": "NASDAQ",
+   "sector": "Health Care",
+   "price": 0.1499,
+   "pct_change": 38.16,
+   "volume": 555634112,
+   "avg_volume_30d": 50628656,
+   "rel_volume": 0.0,
+   "dollar_volume": 83289553,
+   "day_high": 0.1143,
+   "day_low": 0.1067,
+   "range_position": 0.24,
+   "off_30d_high_pct": -26.5,
+   "market_cap": 10067338,
+   "activity_score": 44,
+   "flags": [
+    {
+     "text": "spiked then sold off into the close",
+     "level": "high"
+    },
+    {
+     "text": "sub-25c - spread alone can cost you 10-20%",
+     "level": "high"
+    }
+   ]
+  },
+  {
    "symbol": "HTZ",
    "name": "Hertz Global Holdings Inc",
    "exchange": "NASDAQ",
    "sector": "Consumer Discretionary",
-   "price": 2.8,
-   "pct_change": 14.29,
-   "volume": 78363134,
-   "avg_volume_30d": 36874442,
-   "rel_volume": 3.2,
-   "dollar_volume": 219416775,
-   "day_high": 2.74,
-   "day_low": 2.1,
-   "range_position": 0.55,
-   "off_30d_high_pct": 6.5,
-   "market_cap": 998063900,
-   "activity_score": 40,
+   "price": 2.345,
+   "pct_change": -16.25,
+   "volume": 116161459,
+   "avg_volume_30d": 38824685,
+   "rel_volume": 2.0,
+   "dollar_volume": 272398621,
+   "day_high": 2.855,
+   "day_low": 2.38,
+   "range_position": 0.88,
+   "off_30d_high_pct": 14.3,
+   "market_cap": 835878517,
+   "activity_score": 38,
+   "flags": []
+  },
+  {
+   "symbol": "FFAI",
+   "name": "Faraday Future Intelligent Electric Inc. Class A",
+   "exchange": "NASDAQ",
+   "sector": "Industrials",
+   "price": 4.68,
+   "pct_change": 22.51,
+   "volume": 3970343,
+   "avg_volume_30d": 949060,
+   "rel_volume": 0.7,
+   "dollar_volume": 18581205,
+   "day_high": 4.32,
+   "day_low": 3.7601,
+   "range_position": 0.11,
+   "off_30d_high_pct": -89.7,
+   "market_cap": 11997269,
+   "activity_score": 35,
+   "flags": [
+    {
+     "text": "spiked then sold off into the close",
+     "level": "high"
+    }
+   ]
+  },
+  {
+   "symbol": "HUMA",
+   "name": "Humacyte Inc.",
+   "exchange": "NASDAQ",
+   "sector": "Health Care",
+   "price": 0.55,
+   "pct_change": -17.29,
+   "volume": 32745706,
+   "avg_volume_30d": 6214259,
+   "rel_volume": 1.8,
+   "dollar_volume": 18010138,
+   "day_high": 0.6652,
+   "day_low": 0.6156,
+   "range_position": 1.0,
+   "off_30d_high_pct": -14.8,
+   "market_cap": 122110509,
+   "activity_score": 35,
+   "flags": []
+  },
+  {
+   "symbol": "PMA",
+   "name": "Ming Shing Group Holdings Limited Ordinary Shares",
+   "exchange": "NASDAQ",
+   "sector": "Consumer Discretionary",
+   "price": 1.62,
+   "pct_change": 36.13,
+   "volume": 1317391,
+   "avg_volume_30d": 1863540,
+   "rel_volume": 2.6,
+   "dollar_volume": 2134173,
+   "day_high": 1.19,
+   "day_low": 0.9998,
+   "range_position": 1.0,
+   "off_30d_high_pct": -26.5,
+   "market_cap": 21019500,
+   "activity_score": 34,
+   "flags": [
+    {
+     "text": "thin - hard to exit a real position",
+     "level": "med"
+    }
+   ]
+  },
+  {
+   "symbol": "OTLK",
+   "name": "Outlook Therapeutics Inc.",
+   "exchange": "NASDAQ",
+   "sector": "Health Care",
+   "price": 0.8888,
+   "pct_change": -19.2,
+   "volume": 82019204,
+   "avg_volume_30d": 12329279,
+   "rel_volume": 0.7,
+   "dollar_volume": 72898668,
+   "day_high": 1.18,
+   "day_low": 1.07,
+   "range_position": 0.27,
+   "off_30d_high_pct": -36.4,
+   "market_cap": 166202932,
+   "activity_score": 34,
+   "flags": []
+  },
+  {
+   "symbol": "PSQH",
+   "name": "PSQ Holdings Inc. Class A",
+   "exchange": "NYSE",
+   "sector": "Consumer Discretionary",
+   "price": 4.19,
+   "pct_change": 17.04,
+   "volume": 7240742,
+   "avg_volume_30d": 114803,
+   "rel_volume": 0.7,
+   "dollar_volume": 30338708,
+   "day_high": 4.0199,
+   "day_low": 3.575,
+   "range_position": 0.01,
+   "off_30d_high_pct": -47.4,
+   "market_cap": 14102631,
+   "activity_score": 33,
+   "flags": [
+    {
+     "text": "spiked then sold off into the close",
+     "level": "high"
+    }
+   ]
+  },
+  {
+   "symbol": "IPDN",
+   "name": "Professional Diversity Network Inc.",
+   "exchange": "NASDAQ",
+   "sector": "Technology",
+   "price": 0.2383,
+   "pct_change": -14.71,
+   "volume": 9252677,
+   "avg_volume_30d": 78179,
+   "rel_volume": 5.9,
+   "dollar_volume": 2204912,
+   "day_high": 0.3499,
+   "day_low": 0.2503,
+   "range_position": 0.29,
+   "off_30d_high_pct": -59.3,
+   "market_cap": 3057466,
+   "activity_score": 33,
+   "flags": [
+    {
+     "text": "sub-25c - spread alone can cost you 10-20%",
+     "level": "high"
+    },
+    {
+     "text": "thin - hard to exit a real position",
+     "level": "med"
+    }
+   ]
+  },
+  {
+   "symbol": "NABL",
+   "name": "N-able Inc.",
+   "exchange": "NYSE",
+   "sector": "Technology",
+   "price": 3.68,
+   "pct_change": 13.58,
+   "volume": 4422604,
+   "avg_volume_30d": 1951787,
+   "rel_volume": 1.9,
+   "dollar_volume": 16275182,
+   "day_high": 3.32,
+   "day_low": 3.04,
+   "range_position": 0.71,
+   "off_30d_high_pct": -37.8,
+   "market_cap": 695174264,
+   "activity_score": 32,
    "flags": []
   }
  ],
  "track_record": {
-  "tracked": 30,
-  "pct_up": 33.3,
-  "median": -6.1,
-  "average": -2.2,
-  "worst": -44.7,
-  "best": 76.7
+  "tracked": 40,
+  "pct_up": 37.5,
+  "median": -4.9,
+  "average": 3.5,
+  "worst": -48.1,
+  "best": 164.9
  }
 }
