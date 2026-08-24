@@ -279,9 +279,9 @@
      "pct_change": 158.06,
      "activity_score": 100,
      "outcome": {
-      "days_tracked": 8,
-      "latest": 2.69,
-      "pct_from_scan": -32.8,
+      "days_tracked": 9,
+      "latest": 2.62,
+      "pct_from_scan": -34.5,
       "best": -2.2,
       "worst": -39.0
      }
@@ -292,9 +292,9 @@
      "pct_change": 30.67,
      "activity_score": 94,
      "outcome": {
-      "days_tracked": 8,
-      "latest": 1.56,
-      "pct_from_scan": -20.4,
+      "days_tracked": 9,
+      "latest": 1.67,
+      "pct_from_scan": -14.8,
       "best": -6.1,
       "worst": -20.4
      }
@@ -305,10 +305,10 @@
      "pct_change": 28.03,
      "activity_score": 93,
      "outcome": {
-      "days_tracked": 8,
-      "latest": 0.9699,
-      "pct_from_scan": 4.9,
-      "best": 4.9,
+      "days_tracked": 9,
+      "latest": 0.99,
+      "pct_from_scan": 7.0,
+      "best": 7.0,
       "worst": -8.9
      }
     },
@@ -318,9 +318,9 @@
      "pct_change": 35.81,
      "activity_score": 85,
      "outcome": {
-      "days_tracked": 8,
-      "latest": 3.03,
-      "pct_from_scan": 3.8,
+      "days_tracked": 9,
+      "latest": 3.04,
+      "pct_from_scan": 4.1,
       "best": 19.5,
       "worst": 2.1
      }
@@ -331,9 +331,9 @@
      "pct_change": -20.59,
      "activity_score": 79,
      "outcome": {
-      "days_tracked": 8,
-      "latest": 3.98,
-      "pct_from_scan": 47.4,
+      "days_tracked": 9,
+      "latest": 3.61,
+      "pct_from_scan": 33.7,
       "best": 57.4,
       "worst": -35.6
      }
@@ -344,9 +344,9 @@
      "pct_change": -18.87,
      "activity_score": 78,
      "outcome": {
-      "days_tracked": 8,
-      "latest": 0.5602,
-      "pct_from_scan": -10.0,
+      "days_tracked": 9,
+      "latest": 0.6025,
+      "pct_from_scan": -3.2,
       "best": 1.2,
       "worst": -10.5
      }
@@ -357,9 +357,9 @@
      "pct_change": 25.52,
      "activity_score": 71,
      "outcome": {
-      "days_tracked": 8,
-      "latest": 0.149,
-      "pct_from_scan": -12.7,
+      "days_tracked": 9,
+      "latest": 0.1559,
+      "pct_from_scan": -8.7,
       "best": -0.4,
       "worst": -13.7
      }
@@ -370,10 +370,10 @@
      "pct_change": 53.96,
      "activity_score": 67,
      "outcome": {
-      "days_tracked": 8,
-      "latest": 7.51,
-      "pct_from_scan": 141.5,
-      "best": 145.7,
+      "days_tracked": 9,
+      "latest": 7.66,
+      "pct_from_scan": 146.3,
+      "best": 146.3,
       "worst": 14.8
      }
     },
@@ -383,7 +383,7 @@
      "pct_change": 17.09,
      "activity_score": 67,
      "outcome": {
-      "days_tracked": 8,
+      "days_tracked": 9,
       "latest": 1.31,
       "pct_from_scan": -4.4,
       "best": 9.5,
@@ -396,9 +396,9 @@
      "pct_change": -14.63,
      "activity_score": 66,
      "outcome": {
-      "days_tracked": 8,
-      "latest": 0.255,
-      "pct_from_scan": -0.4,
+      "days_tracked": 9,
+      "latest": 0.2767,
+      "pct_from_scan": 8.0,
       "best": 13.8,
       "worst": -3.4
      }
@@ -414,10 +414,10 @@
      "pct_change": 50.71,
      "activity_score": 100,
      "outcome": {
-      "days_tracked": 7,
-      "latest": 3.14,
-      "pct_from_scan": -1.3,
-      "best": -1.3,
+      "days_tracked": 8,
+      "latest": 3.15,
+      "pct_from_scan": -0.9,
+      "best": -0.9,
       "worst": -12.9
      }
     },
@@ -427,9 +427,9 @@
      "pct_change": -34.74,
      "activity_score": 96,
      "outcome": {
-      "days_tracked": 7,
-      "latest": 0.6516,
-      "pct_from_scan": -53.1,
+      "days_tracked": 8,
+      "latest": 0.6663,
+      "pct_from_scan": -52.1,
       "best": 17.3,
       "worst": -53.1
      }
@@ -440,9 +440,9 @@
      "pct_change": 26.85,
      "activity_score": 92,
      "outcome": {
-      "days_tracked": 7,
-      "latest": 1.03,
-      "pct_from_scan": -24.8,
+      "days_tracked": 8,
+      "latest": 1.04,
+      "pct_from_scan": -24.1,
       "best": -6.6,
       "worst": -24.8
      }
@@ -453,9 +453,9 @@
      "pct_change": -53.85,
      "activity_score": 86,
      "outcome": {
-      "days_tracked": 7,
-      "latest": 1.62,
-      "pct_from_scan": 35.0,
+      "days_tracked": 8,
+      "latest": 1.58,
+      "pct_from_scan": 31.7,
       "best": 56.7,
       "worst": -7.5
      }
@@ -466,9 +466,9 @@
      "pct_change": 17.82,
      "activity_score": 86,
      "outcome": {
-      "days_tracked": 7,
-      "latest": 1.78,
-      "pct_from_scan": 9.9,
+      "days_tracked": 8,
+      "latest": 1.75,
+      "pct_from_scan": 8.0,
       "best": 17.3,
       "worst": 4.9
      }
@@ -479,7 +479,7 @@
      "pct_change": 14.83,
      "activity_score": 84,
      "outcome": {
-      "days_tracked": 7,
+      "days_tracked": 8,
       "latest": 1.48,
       "pct_from_scan": -11.1,
       "best": -11.1,
@@ -492,10 +492,10 @@
      "pct_change": 14.79,
      "activity_score": 79,
      "outcome": {
-      "days_tracked": 7,
-      "latest": 7.51,
-      "pct_from_scan": 110.4,
-      "best": 114.0,
+      "days_tracked": 8,
+      "latest": 7.66,
+      "pct_from_scan": 114.6,
+      "best": 114.6,
       "worst": 49.9
      }
     },
@@ -505,9 +505,9 @@
      "pct_change": 14.1,
      "activity_score": 67,
      "outcome": {
-      "days_tracked": 7,
-      "latest": 1.84,
-      "pct_from_scan": 3.4,
+      "days_tracked": 8,
+      "latest": 1.83,
+      "pct_from_scan": 2.8,
       "best": 6.7,
       "worst": 1.7
      }
@@ -518,11 +518,11 @@
      "pct_change": 29.41,
      "activity_score": 64,
      "outcome": {
-      "days_tracked": 7,
-      "latest": 1.67,
-      "pct_from_scan": -24.1,
+      "days_tracked": 8,
+      "latest": 1.65,
+      "pct_from_scan": -25.0,
       "best": -11.4,
-      "worst": -24.1
+      "worst": -25.0
      }
     },
     {
@@ -531,9 +531,9 @@
      "pct_change": 16.91,
      "activity_score": 55,
      "outcome": {
-      "days_tracked": 7,
-      "latest": 2.67,
-      "pct_from_scan": -17.0,
+      "days_tracked": 8,
+      "latest": 2.74,
+      "pct_from_scan": -14.8,
       "best": 6.7,
       "worst": -17.0
      }
@@ -549,11 +549,11 @@
      "pct_change": -79.35,
      "activity_score": 100,
      "outcome": {
-      "days_tracked": 6,
-      "latest": 0.7301,
-      "pct_from_scan": -39.2,
+      "days_tracked": 7,
+      "latest": 0.6845,
+      "pct_from_scan": -43.0,
       "best": -5.8,
-      "worst": -39.2
+      "worst": -43.0
      }
     },
     {
@@ -562,9 +562,9 @@
      "pct_change": 27.78,
      "activity_score": 92,
      "outcome": {
-      "days_tracked": 6,
-      "latest": 1.38,
-      "pct_from_scan": 0.0,
+      "days_tracked": 7,
+      "latest": 1.42,
+      "pct_from_scan": 2.9,
       "best": 13.8,
       "worst": 0.0
      }
@@ -575,9 +575,9 @@
      "pct_change": -39.75,
      "activity_score": 83,
      "outcome": {
-      "days_tracked": 6,
-      "latest": 4.89,
-      "pct_from_scan": 2.7,
+      "days_tracked": 7,
+      "latest": 4.83,
+      "pct_from_scan": 1.5,
       "best": 5.0,
       "worst": -5.5
      }
@@ -588,11 +588,11 @@
      "pct_change": -56.13,
      "activity_score": 82,
      "outcome": {
-      "days_tracked": 6,
-      "latest": 0.399,
-      "pct_from_scan": -12.1,
+      "days_tracked": 7,
+      "latest": 0.3941,
+      "pct_from_scan": -13.2,
       "best": 1.3,
-      "worst": -12.1
+      "worst": -13.2
      }
     },
     {
@@ -601,9 +601,9 @@
      "pct_change": 11.75,
      "activity_score": 78,
      "outcome": {
-      "days_tracked": 6,
-      "latest": 0.5254,
-      "pct_from_scan": -3.1,
+      "days_tracked": 7,
+      "latest": 0.5162,
+      "pct_from_scan": -4.8,
       "best": 7.0,
       "worst": -6.7
      }
@@ -614,9 +614,9 @@
      "pct_change": -20.46,
      "activity_score": 72,
      "outcome": {
-      "days_tracked": 6,
-      "latest": 4.56,
-      "pct_from_scan": 31.8,
+      "days_tracked": 7,
+      "latest": 4.675,
+      "pct_from_scan": 35.1,
       "best": 59.8,
       "worst": -7.2
      }
@@ -627,9 +627,9 @@
      "pct_change": -20.0,
      "activity_score": 69,
      "outcome": {
-      "days_tracked": 6,
-      "latest": 0.1213,
-      "pct_from_scan": 1.1,
+      "days_tracked": 7,
+      "latest": 0.12,
+      "pct_from_scan": 0.0,
       "best": 1.7,
       "worst": -1.7
      }
@@ -640,10 +640,10 @@
      "pct_change": -19.7,
      "activity_score": 69,
      "outcome": {
-      "days_tracked": 6,
-      "latest": 0.3948,
-      "pct_from_scan": -0.3,
-      "best": 3.6,
+      "days_tracked": 7,
+      "latest": 0.4138,
+      "pct_from_scan": 4.5,
+      "best": 4.5,
       "worst": -5.9
      }
     },
@@ -653,11 +653,11 @@
      "pct_change": -17.41,
      "activity_score": 67,
      "outcome": {
-      "days_tracked": 6,
-      "latest": 0.4307,
-      "pct_from_scan": -12.5,
+      "days_tracked": 7,
+      "latest": 0.429,
+      "pct_from_scan": -12.9,
       "best": 2.7,
-      "worst": -12.5
+      "worst": -12.9
      }
     },
     {
@@ -666,9 +666,9 @@
      "pct_change": 15.3,
      "activity_score": 67,
      "outcome": {
-      "days_tracked": 6,
-      "latest": 0.9625,
-      "pct_from_scan": 50.6,
+      "days_tracked": 7,
+      "latest": 0.9195,
+      "pct_from_scan": 43.9,
       "best": 50.6,
       "worst": 11.1
      }
@@ -684,10 +684,10 @@
      "pct_change": 44.74,
      "activity_score": 100,
      "outcome": {
-      "days_tracked": 5,
-      "latest": 0.866,
-      "pct_from_scan": -31.3,
-      "best": -31.3,
+      "days_tracked": 6,
+      "latest": 0.8788,
+      "pct_from_scan": -30.3,
+      "best": -30.3,
       "worst": -35.3
      }
     },
@@ -697,9 +697,9 @@
      "pct_change": 42.74,
      "activity_score": 100,
      "outcome": {
-      "days_tracked": 5,
-      "latest": 0.335,
-      "pct_from_scan": -36.2,
+      "days_tracked": 6,
+      "latest": 0.3367,
+      "pct_from_scan": -35.9,
       "best": -18.9,
       "worst": -36.2
      }
@@ -710,11 +710,11 @@
      "pct_change": 19.85,
      "activity_score": 87,
      "outcome": {
-      "days_tracked": 5,
-      "latest": 0.86,
-      "pct_from_scan": -47.2,
+      "days_tracked": 6,
+      "latest": 0.7629,
+      "pct_from_scan": -53.2,
       "best": -32.5,
-      "worst": -47.2
+      "worst": -53.2
      }
     },
     {
@@ -723,11 +723,11 @@
      "pct_change": 42.5,
      "activity_score": 86,
      "outcome": {
-      "days_tracked": 5,
-      "latest": 2.94,
-      "pct_from_scan": -26.3,
+      "days_tracked": 6,
+      "latest": 2.76,
+      "pct_from_scan": -30.8,
       "best": -11.0,
-      "worst": -28.3
+      "worst": -30.8
      }
     },
     {
@@ -736,9 +736,9 @@
      "pct_change": 20.72,
      "activity_score": 84,
      "outcome": {
-      "days_tracked": 5,
-      "latest": 2.55,
-      "pct_from_scan": -4.9,
+      "days_tracked": 6,
+      "latest": 2.54,
+      "pct_from_scan": -5.2,
       "best": 6.7,
       "worst": -6.0
      }
@@ -749,11 +749,11 @@
      "pct_change": -36.66,
      "activity_score": 82,
      "outcome": {
-      "days_tracked": 5,
-      "latest": 0.2903,
-      "pct_from_scan": -41.5,
+      "days_tracked": 6,
+      "latest": 0.2687,
+      "pct_from_scan": -45.9,
       "best": -16.5,
-      "worst": -41.5
+      "worst": -45.9
      }
     },
     {
@@ -762,9 +762,9 @@
      "pct_change": -24.43,
      "activity_score": 74,
      "outcome": {
-      "days_tracked": 5,
-      "latest": 0.1221,
-      "pct_from_scan": -28.5,
+      "days_tracked": 6,
+      "latest": 0.1226,
+      "pct_from_scan": -28.2,
       "best": 11.6,
       "worst": -28.5
      }
@@ -775,9 +775,9 @@
      "pct_change": -21.71,
      "activity_score": 71,
      "outcome": {
-      "days_tracked": 5,
-      "latest": 0.442,
-      "pct_from_scan": -25.7,
+      "days_tracked": 6,
+      "latest": 0.4771,
+      "pct_from_scan": -19.8,
       "best": -12.4,
       "worst": -25.7
      }
@@ -788,10 +788,10 @@
      "pct_change": 12.11,
      "activity_score": 67,
      "outcome": {
-      "days_tracked": 5,
-      "latest": 1.48,
-      "pct_from_scan": 18.4,
-      "best": 18.4,
+      "days_tracked": 6,
+      "latest": 1.49,
+      "pct_from_scan": 19.2,
+      "best": 19.2,
       "worst": 2.4
      }
     },
@@ -801,9 +801,9 @@
      "pct_change": 13.77,
      "activity_score": 66,
      "outcome": {
-      "days_tracked": 5,
-      "latest": 1.38,
-      "pct_from_scan": -12.1,
+      "days_tracked": 6,
+      "latest": 1.42,
+      "pct_from_scan": -9.6,
       "best": -6.4,
       "worst": -12.1
      }
@@ -819,9 +819,9 @@
      "pct_change": 74.89,
      "activity_score": 100,
      "outcome": {
-      "days_tracked": 4,
-      "latest": 0.72,
-      "pct_from_scan": -10.9,
+      "days_tracked": 5,
+      "latest": 0.7431,
+      "pct_from_scan": -8.0,
       "best": 5.9,
       "worst": -10.9
      }
@@ -832,11 +832,11 @@
      "pct_change": 29.87,
      "activity_score": 94,
      "outcome": {
-      "days_tracked": 4,
-      "latest": 1.69,
-      "pct_from_scan": -43.7,
+      "days_tracked": 5,
+      "latest": 1.55,
+      "pct_from_scan": -48.3,
       "best": -28.0,
-      "worst": -43.7
+      "worst": -48.3
      }
     },
     {
@@ -845,9 +845,9 @@
      "pct_change": 53.02,
      "activity_score": 90,
      "outcome": {
-      "days_tracked": 4,
-      "latest": 3.61,
-      "pct_from_scan": -16.0,
+      "days_tracked": 5,
+      "latest": 3.68,
+      "pct_from_scan": -14.4,
       "best": -2.8,
       "worst": -16.0
      }
@@ -858,10 +858,10 @@
      "pct_change": -34.13,
      "activity_score": 85,
      "outcome": {
-      "days_tracked": 4,
-      "latest": 0.866,
-      "pct_from_scan": 4.3,
-      "best": 4.3,
+      "days_tracked": 5,
+      "latest": 0.8788,
+      "pct_from_scan": 5.9,
+      "best": 5.9,
       "worst": -1.8
      }
     },
@@ -871,9 +871,9 @@
      "pct_change": -32.12,
      "activity_score": 83,
      "outcome": {
-      "days_tracked": 4,
-      "latest": 0.8092,
-      "pct_from_scan": -13.0,
+      "days_tracked": 5,
+      "latest": 0.8199,
+      "pct_from_scan": -11.8,
       "best": -11.4,
       "worst": -17.4
      }
@@ -884,11 +884,11 @@
      "pct_change": -30.06,
      "activity_score": 76,
      "outcome": {
-      "days_tracked": 4,
-      "latest": 0.9399,
-      "pct_from_scan": -22.3,
+      "days_tracked": 5,
+      "latest": 0.8787,
+      "pct_from_scan": -27.4,
       "best": -2.5,
-      "worst": -22.3
+      "worst": -27.4
      }
     },
     {
@@ -897,9 +897,9 @@
      "pct_change": -18.9,
      "activity_score": 70,
      "outcome": {
-      "days_tracked": 4,
-      "latest": 0.335,
-      "pct_from_scan": -21.4,
+      "days_tracked": 5,
+      "latest": 0.3367,
+      "pct_from_scan": -21.0,
       "best": -13.1,
       "worst": -21.4
      }
@@ -910,9 +910,9 @@
      "pct_change": -55.14,
      "activity_score": 58,
      "outcome": {
-      "days_tracked": 4,
-      "latest": 1.5,
-      "pct_from_scan": -7.1,
+      "days_tracked": 5,
+      "latest": 1.51,
+      "pct_from_scan": -6.5,
       "best": -4.6,
       "worst": -18.0
      }
@@ -923,11 +923,11 @@
      "pct_change": -40.72,
      "activity_score": 58,
      "outcome": {
-      "days_tracked": 4,
-      "latest": 1.75,
-      "pct_from_scan": -21.7,
+      "days_tracked": 5,
+      "latest": 1.66,
+      "pct_from_scan": -25.7,
       "best": -4.3,
-      "worst": -21.7
+      "worst": -25.7
      }
     },
     {
@@ -936,11 +936,11 @@
      "pct_change": -49.31,
      "activity_score": 56,
      "outcome": {
-      "days_tracked": 4,
-      "latest": 0.495,
-      "pct_from_scan": -16.5,
+      "days_tracked": 5,
+      "latest": 0.4787,
+      "pct_from_scan": -19.3,
       "best": -5.9,
-      "worst": -16.5
+      "worst": -19.3
      }
     }
    ]
@@ -954,11 +954,11 @@
      "pct_change": 33.04,
      "activity_score": 96,
      "outcome": {
-      "days_tracked": 3,
-      "latest": 4.33,
-      "pct_from_scan": 43.4,
+      "days_tracked": 4,
+      "latest": 4.03,
+      "pct_from_scan": 33.4,
       "best": 82.1,
-      "worst": 36.4
+      "worst": 33.4
      }
     },
     {
@@ -967,11 +967,11 @@
      "pct_change": 21.7,
      "activity_score": 89,
      "outcome": {
-      "days_tracked": 3,
-      "latest": 3.61,
-      "pct_from_scan": -18.5,
+      "days_tracked": 4,
+      "latest": 3.435,
+      "pct_from_scan": -22.5,
       "best": -6.3,
-      "worst": -18.5
+      "worst": -22.5
      }
     },
     {
@@ -980,9 +980,9 @@
      "pct_change": -14.24,
      "activity_score": 84,
      "outcome": {
-      "days_tracked": 3,
-      "latest": 1.5,
-      "pct_from_scan": 8.3,
+      "days_tracked": 4,
+      "latest": 1.51,
+      "pct_from_scan": 9.0,
       "best": 11.2,
       "worst": -4.3
      }
@@ -993,11 +993,11 @@
      "pct_change": -12.22,
      "activity_score": 80,
      "outcome": {
-      "days_tracked": 3,
-      "latest": 0.495,
-      "pct_from_scan": -4.9,
+      "days_tracked": 4,
+      "latest": 0.4787,
+      "pct_from_scan": -8.0,
       "best": 7.2,
-      "worst": -4.9
+      "worst": -8.0
      }
     },
     {
@@ -1006,9 +1006,9 @@
      "pct_change": -19.66,
      "activity_score": 72,
      "outcome": {
-      "days_tracked": 3,
-      "latest": 1.08,
-      "pct_from_scan": -24.5,
+      "days_tracked": 4,
+      "latest": 1.1,
+      "pct_from_scan": -23.1,
       "best": -7.0,
       "worst": -24.5
      }
@@ -1019,8 +1019,8 @@
      "pct_change": -17.23,
      "activity_score": 70,
      "outcome": {
-      "days_tracked": 3,
-      "latest": 0.2804,
+      "days_tracked": 4,
+      "latest": 0.28,
       "pct_from_scan": -32.5,
       "best": -13.5,
       "worst": -32.5
@@ -1032,11 +1032,11 @@
      "pct_change": 58.84,
      "activity_score": 69,
      "outcome": {
-      "days_tracked": 3,
-      "latest": 0.96,
-      "pct_from_scan": -37.7,
+      "days_tracked": 4,
+      "latest": 0.8547,
+      "pct_from_scan": -44.5,
       "best": -29.2,
-      "worst": -37.7
+      "worst": -44.5
      }
     },
     {
@@ -1045,9 +1045,9 @@
      "pct_change": -13.39,
      "activity_score": 65,
      "outcome": {
-      "days_tracked": 3,
-      "latest": 3.63,
-      "pct_from_scan": -3.2,
+      "days_tracked": 4,
+      "latest": 4.1,
+      "pct_from_scan": 9.3,
       "best": 36.8,
       "worst": -3.2
      }
@@ -1058,9 +1058,9 @@
      "pct_change": -12.88,
      "activity_score": 65,
      "outcome": {
-      "days_tracked": 3,
-      "latest": 0.8092,
-      "pct_from_scan": -0.1,
+      "days_tracked": 4,
+      "latest": 0.8199,
+      "pct_from_scan": 1.2,
       "best": 1.8,
       "worst": -5.2
      }
@@ -1071,11 +1071,11 @@
      "pct_change": -28.0,
      "activity_score": 62,
      "outcome": {
-      "days_tracked": 3,
-      "latest": 1.69,
-      "pct_from_scan": -21.8,
+      "days_tracked": 4,
+      "latest": 1.55,
+      "pct_from_scan": -28.2,
       "best": -4.2,
-      "worst": -21.8
+      "worst": -28.2
      }
     }
    ]
@@ -1089,9 +1089,9 @@
      "pct_change": 112.44,
      "activity_score": 100,
      "outcome": {
-      "days_tracked": 2,
-      "latest": 3.72,
-      "pct_from_scan": -16.2,
+      "days_tracked": 3,
+      "latest": 3.5,
+      "pct_from_scan": -21.2,
       "best": -16.2,
       "worst": -34.7
      }
@@ -1102,11 +1102,11 @@
      "pct_change": 42.07,
      "activity_score": 100,
      "outcome": {
-      "days_tracked": 2,
-      "latest": 1.35,
-      "pct_from_scan": -34.5,
+      "days_tracked": 3,
+      "latest": 1.26,
+      "pct_from_scan": -38.8,
       "best": -23.3,
-      "worst": -34.5
+      "worst": -38.8
      }
     },
     {
@@ -1115,11 +1115,11 @@
      "pct_change": -29.22,
      "activity_score": 93,
      "outcome": {
-      "days_tracked": 2,
-      "latest": 0.96,
-      "pct_from_scan": -11.9,
+      "days_tracked": 3,
+      "latest": 0.8547,
+      "pct_from_scan": -21.6,
       "best": -11.9,
-      "worst": -11.9
+      "worst": -21.6
      }
     },
     {
@@ -1128,11 +1128,11 @@
      "pct_change": -27.12,
      "activity_score": 92,
      "outcome": {
-      "days_tracked": 2,
-      "latest": 0.2949,
-      "pct_from_scan": -31.4,
+      "days_tracked": 3,
+      "latest": 0.277,
+      "pct_from_scan": -35.6,
       "best": -13.2,
-      "worst": -31.4
+      "worst": -35.6
      }
     },
     {
@@ -1141,11 +1141,11 @@
      "pct_change": 17.5,
      "activity_score": 85,
      "outcome": {
-      "days_tracked": 2,
-      "latest": 1.83,
-      "pct_from_scan": -44.4,
+      "days_tracked": 3,
+      "latest": 1.18,
+      "pct_from_scan": -64.1,
       "best": -8.5,
-      "worst": -44.4
+      "worst": -64.1
      }
     },
     {
@@ -1154,11 +1154,11 @@
      "pct_change": 9.9,
      "activity_score": 81,
      "outcome": {
-      "days_tracked": 2,
-      "latest": 2.2,
-      "pct_from_scan": -0.9,
+      "days_tracked": 3,
+      "latest": 2.07,
+      "pct_from_scan": -6.8,
       "best": -0.9,
-      "worst": -0.9
+      "worst": -6.8
      }
     },
     {
@@ -1167,10 +1167,10 @@
      "pct_change": -24.68,
      "activity_score": 72,
      "outcome": {
-      "days_tracked": 2,
-      "latest": 2.42,
-      "pct_from_scan": 4.3,
-      "best": 6.0,
+      "days_tracked": 3,
+      "latest": 2.51,
+      "pct_from_scan": 8.2,
+      "best": 8.2,
       "worst": 4.3
      }
     },
@@ -1180,11 +1180,11 @@
      "pct_change": -21.85,
      "activity_score": 70,
      "outcome": {
-      "days_tracked": 2,
-      "latest": 0.1011,
-      "pct_from_scan": -1.8,
+      "days_tracked": 3,
+      "latest": 0.0968,
+      "pct_from_scan": -6.0,
       "best": -0.1,
-      "worst": -1.8
+      "worst": -6.0
      }
     },
     {
@@ -1193,9 +1193,9 @@
      "pct_change": 12.57,
      "activity_score": 65,
      "outcome": {
-      "days_tracked": 2,
-      "latest": 1.62,
-      "pct_from_scan": -13.8,
+      "days_tracked": 3,
+      "latest": 1.58,
+      "pct_from_scan": -16.0,
       "best": -13.8,
       "worst": -19.7
      }
@@ -1206,11 +1206,11 @@
      "pct_change": 10.78,
      "activity_score": 65,
      "outcome": {
-      "days_tracked": 2,
-      "latest": 0.3299,
-      "pct_from_scan": 11.1,
+      "days_tracked": 3,
+      "latest": 0.2933,
+      "pct_from_scan": -1.2,
       "best": 11.1,
-      "worst": 7.1
+      "worst": -1.2
      }
     }
    ]
@@ -1224,11 +1224,11 @@
      "pct_change": -34.69,
      "activity_score": 97,
      "outcome": {
-      "days_tracked": 1,
-      "latest": 3.72,
-      "pct_from_scan": 28.3,
+      "days_tracked": 2,
+      "latest": 3.5,
+      "pct_from_scan": 20.7,
       "best": 28.3,
-      "worst": 28.3
+      "worst": 20.7
      }
     },
     {
@@ -1237,11 +1237,11 @@
      "pct_change": -19.05,
      "activity_score": 87,
      "outcome": {
-      "days_tracked": 1,
-      "latest": 1.87,
-      "pct_from_scan": 10.0,
+      "days_tracked": 2,
+      "latest": 1.58,
+      "pct_from_scan": -7.1,
       "best": 10.0,
-      "worst": 10.0
+      "worst": -7.1
      }
     },
     {
@@ -1250,11 +1250,11 @@
      "pct_change": -46.96,
      "activity_score": 86,
      "outcome": {
-      "days_tracked": 1,
-      "latest": 0.083,
-      "pct_from_scan": -35.3,
+      "days_tracked": 2,
+      "latest": 0.057,
+      "pct_from_scan": -55.5,
       "best": -35.3,
-      "worst": -35.3
+      "worst": -55.5
      }
     },
     {
@@ -1263,11 +1263,11 @@
      "pct_change": -25.09,
      "activity_score": 78,
      "outcome": {
-      "days_tracked": 1,
-      "latest": 4.33,
-      "pct_from_scan": 5.1,
+      "days_tracked": 2,
+      "latest": 4.03,
+      "pct_from_scan": -2.2,
       "best": 5.1,
-      "worst": 5.1
+      "worst": -2.2
      }
     },
     {
@@ -1276,10 +1276,10 @@
      "pct_change": 28.3,
      "activity_score": 76,
      "outcome": {
-      "days_tracked": 1,
-      "latest": 2.23,
-      "pct_from_scan": 9.3,
-      "best": 9.3,
+      "days_tracked": 2,
+      "latest": 2.79,
+      "pct_from_scan": 36.8,
+      "best": 36.8,
       "worst": 9.3
      }
     },
@@ -1289,11 +1289,11 @@
      "pct_change": 17.42,
      "activity_score": 75,
      "outcome": {
-      "days_tracked": 1,
-      "latest": 1.175,
-      "pct_from_scan": -24.2,
+      "days_tracked": 2,
+      "latest": 1.12,
+      "pct_from_scan": -27.7,
       "best": -24.2,
-      "worst": -24.2
+      "worst": -27.7
      }
     },
     {
@@ -1302,11 +1302,11 @@
      "pct_change": -17.31,
      "activity_score": 70,
      "outcome": {
-      "days_tracked": 1,
-      "latest": 0.8,
-      "pct_from_scan": -7.0,
+      "days_tracked": 2,
+      "latest": 0.6,
+      "pct_from_scan": -30.2,
       "best": -7.0,
-      "worst": -7.0
+      "worst": -30.2
      }
     },
     {
@@ -1315,10 +1315,10 @@
      "pct_change": -23.4,
      "activity_score": 65,
      "outcome": {
-      "days_tracked": 1,
-      "latest": 0.3151,
-      "pct_from_scan": 6.4,
-      "best": 6.4,
+      "days_tracked": 2,
+      "latest": 0.3186,
+      "pct_from_scan": 7.6,
+      "best": 7.6,
       "worst": 6.4
      }
     },
@@ -1328,11 +1328,11 @@
      "pct_change": -14.61,
      "activity_score": 65,
      "outcome": {
-      "days_tracked": 1,
-      "latest": 3.44,
-      "pct_from_scan": 15.4,
+      "days_tracked": 2,
+      "latest": 2.57,
+      "pct_from_scan": -13.8,
       "best": 15.4,
-      "worst": 15.4
+      "worst": -13.8
      }
     },
     {
@@ -1341,8 +1341,8 @@
      "pct_change": -13.59,
      "activity_score": 65,
      "outcome": {
-      "days_tracked": 1,
-      "latest": 0.4001,
+      "days_tracked": 2,
+      "latest": 0.4,
       "pct_from_scan": -2.2,
       "best": -2.2,
       "worst": -2.2
@@ -1357,61 +1357,131 @@
      "symbol": "BTCT",
      "price": 1.47,
      "pct_change": 75.69,
-     "activity_score": 100
+     "activity_score": 100,
+     "outcome": {
+      "days_tracked": 1,
+      "latest": 1.14,
+      "pct_from_scan": -22.4,
+      "best": -22.4,
+      "worst": -22.4
+     }
     },
     {
      "symbol": "CDTG",
      "price": 1.83,
      "pct_change": -39.2,
-     "activity_score": 100
+     "activity_score": 100,
+     "outcome": {
+      "days_tracked": 1,
+      "latest": 1.18,
+      "pct_from_scan": -35.5,
+      "best": -35.5,
+      "worst": -35.5
+     }
     },
     {
      "symbol": "BEEM",
      "price": 1.36,
      "pct_change": 12.4,
-     "activity_score": 83
+     "activity_score": 83,
+     "outcome": {
+      "days_tracked": 1,
+      "latest": 1.57,
+      "pct_from_scan": 15.4,
+      "best": 15.4,
+      "worst": 15.4
+     }
     },
     {
      "symbol": "BIVI",
      "price": 1.86,
      "pct_change": 38.81,
-     "activity_score": 72
+     "activity_score": 72,
+     "outcome": {
+      "days_tracked": 1,
+      "latest": 1.95,
+      "pct_from_scan": 4.8,
+      "best": 4.8,
+      "worst": 4.8
+     }
     },
     {
      "symbol": "BTOG",
      "price": 0.7251,
      "pct_change": -15.85,
-     "activity_score": 68
+     "activity_score": 68,
+     "outcome": {
+      "days_tracked": 1,
+      "latest": 3.73,
+      "pct_from_scan": 414.4,
+      "best": 414.4,
+      "worst": 414.4
+     }
     },
     {
      "symbol": "QTEX",
      "price": 0.8508,
      "pct_change": -24.04,
-     "activity_score": 67
+     "activity_score": 67,
+     "outcome": {
+      "days_tracked": 1,
+      "latest": 0.9155,
+      "pct_from_scan": 7.6,
+      "best": 7.6,
+      "worst": 7.6
+     }
     },
     {
      "symbol": "AZI",
      "price": 1.44,
      "pct_change": -13.25,
-     "activity_score": 67
+     "activity_score": 67,
+     "outcome": {
+      "days_tracked": 1,
+      "latest": 1.45,
+      "pct_from_scan": 0.7,
+      "best": 0.7,
+      "worst": 0.7
+     }
     },
     {
      "symbol": "GDC",
      "price": 2.49,
      "pct_change": 13.18,
-     "activity_score": 67
+     "activity_score": 67,
+     "outcome": {
+      "days_tracked": 1,
+      "latest": 1.56,
+      "pct_from_scan": -37.3,
+      "best": -37.3,
+      "worst": -37.3
+     }
     },
     {
      "symbol": "INDP",
      "price": 1.38,
      "pct_change": 46.81,
-     "activity_score": 66
+     "activity_score": 66,
+     "outcome": {
+      "days_tracked": 1,
+      "latest": 1.29,
+      "pct_from_scan": -6.5,
+      "best": -6.5,
+      "worst": -6.5
+     }
     },
     {
      "symbol": "MSS",
      "price": 1.59,
      "pct_change": -14.52,
-     "activity_score": 66
+     "activity_score": 66,
+     "outcome": {
+      "days_tracked": 1,
+      "latest": 1.48,
+      "pct_from_scan": -6.9,
+      "best": -6.9,
+      "worst": -6.9
+     }
     }
    ]
   },
@@ -1479,13 +1549,78 @@
      "activity_score": 65
     }
    ]
+  },
+  {
+   "date": "2026-08-24",
+   "candidates": [
+    {
+     "symbol": "SUGP",
+     "price": 1.34,
+     "pct_change": -16.25,
+     "activity_score": 85
+    },
+    {
+     "symbol": "KNRX",
+     "price": 0.429,
+     "pct_change": -17.5,
+     "activity_score": 67
+    },
+    {
+     "symbol": "CYPH",
+     "price": 1.68,
+     "pct_change": 18.31,
+     "activity_score": 66
+    },
+    {
+     "symbol": "LSTA",
+     "price": 1.76,
+     "pct_change": 13.55,
+     "activity_score": 65
+    },
+    {
+     "symbol": "ZJK",
+     "price": 2.55,
+     "pct_change": 13.33,
+     "activity_score": 65
+    },
+    {
+     "symbol": "DTCX",
+     "price": 2.92,
+     "pct_change": 11.45,
+     "activity_score": 63
+    },
+    {
+     "symbol": "BTCT",
+     "price": 1.74,
+     "pct_change": 52.63,
+     "activity_score": 51
+    },
+    {
+     "symbol": "DAIC",
+     "price": 1.73,
+     "pct_change": 306.1,
+     "activity_score": 46
+    },
+    {
+     "symbol": "GIPR",
+     "price": 0.7525,
+     "pct_change": 150.67,
+     "activity_score": 45
+    },
+    {
+     "symbol": "LUCY",
+     "price": 1.12,
+     "pct_change": 63.77,
+     "activity_score": 45
+    }
+   ]
   }
  ],
  "summary": {
-  "tracked": 100,
-  "pct_up": 31.0,
-  "median": -10.0,
-  "average": 24.4,
+  "tracked": 110,
+  "pct_up": 32.7,
+  "median": -8.0,
+  "average": 23.8,
   "worst": -70.9,
   "best": 2747.9
  }
